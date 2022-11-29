@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 900px;
+	margin:auto;
+}
+header {
+	width: 900px;
+	height: 350px;
+}
+header h1{
+	font: bold;
+	text-align: center;
+	margin-top: -300px;
+	color: black;
+	font-size: 30px;
+}
+header h2{
+	color: black;
+	font-size: 25px;
+	text-align: center;
+}
+header p {
+	text-align: center;
+	color: #ffff;
+}
+header img {
+	width: 900px;
+	height: 350px;
+}
+menu {
+   width: 880px;
+   height: 30px;
+   background-color: blue;
+   margin-top: 5px;
+   padding:10px;
+}
+menu li{
+	list-style: none;
+	float:left;
+	margin-right: 20px;
+	margin-top :5px;
+	color: #fff;
+	margin-left: 5px;
+}
+menu li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: red;
+}
+.recomended{
+	width: 900px;
+	overflow: hidden;
+	background-color: #fff;
+	margin-top: 5px;
+}
+.recomended h1 {
+	text-align: center;
+}
+.recomended .recomendedKiri{
+	width: 430px;
+	float: left;
+	margin: 10px 5px 5px 10px;
+}
+.recomended img {
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin: 0px 5px 0px 0px;
+	box-shadow: 5px 7px 2px #333;
+}
+.recomended p {
+	text-align: justify;
+}
+.recomended .recomendedKanan{
+	width: 430px;
+	float: left;
+	margin: 10px 10px 5px 5px;
+}
+.recomended a {
+	text-decoration: none;
+	color: black;
+}
+.recomended a:hover {
+	color: red;
+}
+.recomended h1{
+	color: black;
+}
+.body {
+	background-color: blue;
+}
